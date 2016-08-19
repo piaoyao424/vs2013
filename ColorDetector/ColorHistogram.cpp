@@ -39,7 +39,7 @@ cv::MatND ColorHistogram::getHistogram(const cv::Mat &image)
 
 cv::Mat ColorHistogram::getHistogramImage(const cv::Mat &image)
 {
-
+	return image;
 }
 
 //cv::SparseMat 数据结构，它旨在表示大型的稀疏矩阵（即矩阵拥有少量非零元素），
