@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpencvLearning", "OpencvLearning\OpencvLearning.vcxproj", "{EBE2CE31-DC35-4FD5-B613-FD9B8D98466E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorDetector", "ColorDetector\ColorDetector.vcxproj", "{E65603A2-3E88-4115-ACAA-43A400F84B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBE2CE31-DC35-4FD5-B613-FD9B8D98466E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBE2CE31-DC35-4FD5-B613-FD9B8D98466E}.Debug|Win32.Build.0 = Debug|Win32
+		{EBE2CE31-DC35-4FD5-B613-FD9B8D98466E}.Release|Win32.ActiveCfg = Release|Win32
+		{EBE2CE31-DC35-4FD5-B613-FD9B8D98466E}.Release|Win32.Build.0 = Release|Win32
+		{E65603A2-3E88-4115-ACAA-43A400F84B5B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E65603A2-3E88-4115-ACAA-43A400F84B5B}.Debug|Win32.Build.0 = Debug|Win32
+		{E65603A2-3E88-4115-ACAA-43A400F84B5B}.Release|Win32.ActiveCfg = Release|Win32
+		{E65603A2-3E88-4115-ACAA-43A400F84B5B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
