@@ -86,12 +86,14 @@
     <ClCompile Include="ColorHistogram.cpp" />
     <ClCompile Include="Histogram1D.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MorphoFeatures.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ColorDetectController.h" />
     <ClInclude Include="ColorDetector.h" />
     <ClInclude Include="ColorHistogram.h" />
     <ClInclude Include="Histogram1D.h" />
+    <ClInclude Include="MorphoFeatures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

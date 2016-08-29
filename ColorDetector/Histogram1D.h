@@ -74,6 +74,14 @@ public:
 			result = applyLookUp(image, lookup);
 			return result;
 			}
+		
+		//像素均衡化,显著提高图像质量
+		cv::Mat equalize(const cv::Mat &image)
+		{
+			cv::Mat  result;
+			cv::equalizeHist(image, result);
+			return result;
+		}
 
 private:
 	int HistSize[1];
