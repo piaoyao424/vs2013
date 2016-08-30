@@ -29,7 +29,7 @@ int main()
 
 
 	MorphoFeatures morpho;
-	morpho.setThreshold(40);
+	morpho.setThreshold(50);
 	//ªÒ»°±ﬂ‘µ
 	cv::Mat edges;
 	cv::Mat  image = cv::imread("sdf.jpg", 0);
