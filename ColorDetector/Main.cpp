@@ -11,7 +11,7 @@ int main()
 	//{
 	//	return 0;
 	//}
-	////cdetector.setTargetColor(63, 126, 177);
+	//cdetector.setTargetColor(63, 126, 177);
 	//cv::namedWindow("My Image1");
 	//cv::imshow("My Image1", image);
 
@@ -23,16 +23,15 @@ int main()
 	//	std::cout << "value" << i << "=" << histo.at<float>(i)<< std::endl;
 	//}
 
-	////cv::Mat img = h.getHistogramImage(image);
+	//cv::Mat img = h.getHistogramImage(image);
 	//cv::Mat img = h.equalize(image);
-	////create image window named "My Image"
-
+	//create image window named "My Image"
 
 	MorphoFeatures morpho;
 	morpho.setThreshold(50);
 	//获取边缘
 	cv::Mat edges;
-	cv::Mat  image = cv::imread("sdf.jpg", 0);
+	cv::Mat image = cv::imread("sdf.jpg", 0);
 	edges = morpho.getCorners(image);
 	//在图像中显示角点
 	morpho.drawOnImage(edges,image);
